@@ -1,0 +1,54 @@
+For Employee -
+
+1) Get all Employee  -  url --GET     http://localhost:2501/employees/all
+
+2) Get Employee By Id  -  url- GET -- http://localhost:2501/employees/{id}
+
+3) Add New Employee  -  url-- POST     http://localhost:2501/employees/add
+
+    format - {
+    "firstName": "xyz",
+    "lastName": "pqr",
+    "email": "xyz@gmail.com",
+    "departmentId": "2"
+               }
+
+4) Delete Employee by Id  ---URL  ---DELETE  ---http://localhost:2501/employees/{id}
+
+5) Update Employee        ---URL  ---PUT  -------http://localhost:2501/employees/{id}
+
+      {
+    "newFirstName": "xyz2",
+    "newLastName": "pqr2",
+    "newEmail": "updated.email@example.com",
+    "newDepartmentId": "5"
+         }
+
+
+
+
+
+
+
+For Department 
+
+1) Get all Departments  -  url --GET     http://localhost:2501/departments/all
+
+2) Get DEpartment By Id  -  url- GET -- http://localhost:2501/departments/{id}
+
+3) Add New Department  -  url-- POST     http://localhost:2501/departments/add
+
+    format -           {
+
+                             "departmentName": "mechanical"
+    
+                          }
+
+4) Delete Department by Id  ---URL  ---DELETE  ---http://localhost:2501/departments/{id}
+
+5) Update Department        ---URL  ---PUT  -------http://localhost:2501/departments/{id}
+
+  format              {
+                               "newDepartmentName": "civil"
+                         }
+
